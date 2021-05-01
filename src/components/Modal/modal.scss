@@ -1,0 +1,12 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .modal-box {
+    padding: 13px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    outline: none;
+  }
+}

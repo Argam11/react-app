@@ -1,7 +1,17 @@
-import "./App.css";
+import { BrowserRouter } from "react-router-dom";
+import { Provider } from "react-redux";
+import store from "store/store";
+import Routes from "routes/routes";
+import "App.css";
 
 function App() {
-  return <div className="App">11</div>;
+  return (
+    <Provider store={store}>
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
+    </Provider>
+  );
 }
 
 export default App;
