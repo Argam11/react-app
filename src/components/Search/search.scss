@@ -1,0 +1,21 @@
+.search-component {
+  width: 400px;
+  background-color: #1b1e37;
+  border-radius: 4px;
+  padding: 10px !important;
+
+  .MuiInput-underline {
+    &::before {
+      content: none;
+    }
+    &::after {
+      content: none;
+    }
+  }
+  input {
+    color: #ffffff;
+  }
+  input::placeholder {
+    color: #bdbbd3;
+  }
+}

@@ -1,8 +1,5 @@
-import Home from "pages/Home";
+import Currencies from "pages/Currencies";
 
-const ROUTES = [
-  { path: "/", key: "ROOT", exact: true, component: () => <Home /> },
-  { path: "/about", key: "About", exact: true, component: () => <h1>About page!</h1> },
-];
+const ROUTES = [{ path: "/", key: "ROOT", exact: true, component: () => <Currencies /> }];
 
 export default ROUTES;

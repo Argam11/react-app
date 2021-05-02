@@ -1,0 +1,29 @@
+.input-component {
+  width: 400px;
+
+  .MuiInput-underline {
+    &::before {
+      content: none;
+    }
+    &::after {
+      content: none;
+    }
+  }
+  label {
+    color: #bdbbd3;
+  }
+  p.MuiFormHelperText-root {
+    color: #565c96;
+    margin-left: 10px;
+  }
+
+  input {
+    color: #ffffff;
+    background-color: #1b1e37;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  input::placeholder {
+    color: #bdbbd3;
+  }
+}

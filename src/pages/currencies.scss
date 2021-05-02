@@ -1,0 +1,70 @@
+.currencies-page {
+  padding: 12px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: #1f233f;
+    padding: 20px;
+    padding-bottom: 50px;
+
+    .table {
+      margin-top: 20px;
+
+      .table-header,
+      .table-row {
+        display: flex;
+        border-bottom: 1px solid #afafaf;
+        padding: 20px;
+      }
+      .table-id {
+        width: 120px;
+      }
+      .table-actions {
+        width: 80px;
+        display: flex;
+        justify-content: flex-end;
+        & > svg {
+          cursor: pointer;
+          margin-left: 20px;
+        }
+      }
+      .table-name,
+      .table-rate {
+        flex: 1;
+      }
+    }
+  }
+}
+
+.create-edit-currency-modal {
+  .buttom-box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    & > button {
+      margin-left: 10px;
+    }
+  }
+}
+
+.delete-currency-modal {
+  & > p {
+    margin-top: 20px;
+    color: #565c96;
+    font-size: 12px;
+  }
+  .buttom-box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    & > button {
+      margin-left: 10px;
+    }
+  }
+}

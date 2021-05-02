@@ -1,7 +1,7 @@
-import home from "store/home/reducer";
+import currencies from "store/currencies/reducer";
 
 const rootReducer = {
-  home,
+  currencies,
 };
 
 export default rootReducer;
